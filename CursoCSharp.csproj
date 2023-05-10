@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CursoCSharp\**" />
+    <Compile Remove="Fundamentos\NovaPasta\**" />
+    <EmbeddedResource Remove="CursoCSharp\**" />
+    <EmbeddedResource Remove="Fundamentos\NovaPasta\**" />
+    <None Remove="CursoCSharp\**" />
+    <None Remove="Fundamentos\NovaPasta\**" />
+  </ItemGroup>
+
+</Project>
