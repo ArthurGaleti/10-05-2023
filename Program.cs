@@ -10,6 +10,14 @@ namespace CursoCSharp
         static void Main(string[] args)
         {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
+
+                //estrutura de controle
+
+                {"Estrutura If- Estrutura de Controle",EstruturaIf.Executar},
+
+
+                //fundamentos
+
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Variaveis e Constantes - Fundamentos",VariaveisEConstantes.Executar },
                 {"Notação Ponto - Fundamentos ",NotacaoPonto.Executar },
@@ -19,10 +27,9 @@ namespace CursoCSharp
                 {"Exercícios Operadores - Fundamentos",ExerciciosOperadores.Executar},
                 {"Operadores Relacionais - Fundamentos ",OperadoresRelacionais.Executar},
                 {"Operadores Atribuição - Fundamentos ",OperadoresAtribuicao.Executar},
+                {"If Else - Fundamentos",IfElse.Executar},
 
-                    //estrutura de controle
-
-                {"Estrutura If- Estrutura de Controle",EstruturaIf.Executar}
+                    
             });
 
             central.SelecionarEExecutar();
