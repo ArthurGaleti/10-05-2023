@@ -13,7 +13,8 @@ namespace CursoCSharp
 
                 //estrutura de controle
 
-                {"Estrutura If- Estrutura de Controle",EstruturaIf.Executar},
+                {"Estrutura If - Estrutura de Controle",EstruturaIf.Executar},
+                {"Estrutura Switch - Estrutura de Controle",EstruturaSwitch.Executar},
 
 
                 //fundamentos
@@ -28,9 +29,11 @@ namespace CursoCSharp
                 {"Operadores Relacionais - Fundamentos ",OperadoresRelacionais.Executar},
                 {"Operadores Atribuição - Fundamentos ",OperadoresAtribuicao.Executar},
                 {"If Else - Fundamentos",IfElse.Executar},
+                {"Estrutura While e For - Estrutura de Controle",WhileEForm.Executar},
 
-                    
-            });
+
+
+            }) ;
 
             central.SelecionarEExecutar();
         }

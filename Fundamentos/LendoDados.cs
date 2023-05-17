@@ -20,6 +20,13 @@ namespace CursoCSharp.Fundamentos {
 
             //exibição
             Console.WriteLine($"Ola {nome} você tem {idade} anos e {altura} de altura");
+
+            //parse: converte tryparse verifica se é possível antes
+            Console.WriteLine("Fale um número");
+            string palavra =Console.ReadLine();
+            int numero;
+            int.TryParse(palavra, out numero);
         }
+
     }
 }
