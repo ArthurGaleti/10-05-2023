@@ -44,7 +44,7 @@ namespace CursoCSharp.Fundamentos
             Console.WriteLine("------------------------------");
             
 
-            while(cont != num)
+            while(cont != num +1)
             {
                 Console.WriteLine(cont);
                 cont++;
