@@ -13,7 +13,6 @@ namespace CursoCSharp
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
 
                 //estrutura de controle
-
                 {"Estrutura If - Estrutura de Controle",EstruturaIf.Executar},
                 {"Estrutura Switch - Estrutura de Controle",EstruturaSwitch.Executar},
                 {"Estrutura While e For - Estrutura de Controle",WhileEForm.Executar},
@@ -22,7 +21,6 @@ namespace CursoCSharp
 
 
                 //fundamentos
-
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Variaveis e Constantes - Fundamentos",VariaveisEConstantes.Executar },
                 {"Notação Ponto - Fundamentos ",NotacaoPonto.Executar },
@@ -35,9 +33,8 @@ namespace CursoCSharp
                 {"If Else - Fundamentos",IfElse.Executar},
 
                 //classes e métodos
-
                 {"Membros - Classes e Métodos",Membros.Executar},
-
+                {"Construtores - Classes e Métodos",Construtores.Executar},
 
 
 
