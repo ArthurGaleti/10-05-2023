@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturaDeControle;
+using CursoCSharp.ClassesEMetodos;
 
 namespace CursoCSharp
 {
@@ -16,6 +17,8 @@ namespace CursoCSharp
                 {"Estrutura If - Estrutura de Controle",EstruturaIf.Executar},
                 {"Estrutura Switch - Estrutura de Controle",EstruturaSwitch.Executar},
                 {"Estrutura While e For - Estrutura de Controle",WhileEForm.Executar},
+                {"Estrutura de Repetição - Estrutura de Controle",EstruturaRepeticao.Executar},
+                {"Estrutura For It - Estrutura de Controle",EstruturaForeach.Executar},
 
 
                 //fundamentos
@@ -30,8 +33,12 @@ namespace CursoCSharp
                 {"Operadores Relacionais - Fundamentos ",OperadoresRelacionais.Executar},
                 {"Operadores Atribuição - Fundamentos ",OperadoresAtribuicao.Executar},
                 {"If Else - Fundamentos",IfElse.Executar},
-                {"Estrutura de Repetição - Estrutura de Controle",EstruturaRepeticao.Executar},
-                
+
+                //classes e métodos
+
+                {"Membros - Classes e Métodos",Membros.Executar},
+
+
 
 
 
