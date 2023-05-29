@@ -37,7 +37,11 @@ namespace CursoCSharp
                 {"Construtores - Classes e Métodos",Construtores.Executar},
                 {"Métodos com Retorno - Classes e Métodos",MetodosComRetorno.Executar},
                 {"Dolar e Temperatura - Classes e métodos",DolarETemperatura.Executar},
-                {"Métodos Estáticos - classes e métodos",MetodosEstaticos.Executar},
+                {"Métodos Estáticos - Classes e métodos",MetodosEstaticos.Executar},
+                {"Param - Classes e métodos",Params.Executar},
+                {"GetSet - Classes e métodos",GetSet.Executar},
+                {"GetSet exemplo 2- Classes e métodos",GetSet2.Executar},
+                {"GetSet exercícios- Classes e métodos",GetSetExercios.Executar},
 
 
 
