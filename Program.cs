@@ -5,6 +5,8 @@ using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.POO;
+using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Excecoes;
 
 
 namespace CursoCSharp
@@ -25,9 +27,9 @@ namespace CursoCSharp
 
                 //fundamentos
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
-                {"Variaveis e Constantes - Fundamentos",VariaveisEConstantes.Executar },
-                {"Notação Ponto - Fundamentos ",NotacaoPonto.Executar },
-                {"Lendo Dados - Fundamentos",LendoDados.Executar },
+                {"Variaveis e Constantes - Fundamentos",VariaveisEConstantes.Executar},
+                {"Notação Ponto - Fundamentos ",NotacaoPonto.Executar},
+                {"Lendo Dados - Fundamentos",LendoDados.Executar},
                 {"Formatando Números - Fundamentos ",FormatandoNumeros.Executar},
                 {"Operadores Aritimeticos - Fundamentos ",OperadoresAritimeticos.Executar},
                 {"Exercícios Operadores - Fundamentos",ExerciciosOperadores.Executar},
@@ -56,9 +58,17 @@ namespace CursoCSharp
                 {"Construtor This - POO",ConstrutorThis.Executar},
                 {"Encapsulamento - POO", POO.Encapsulamento.Executar},
                 {"Polimorfismo - POO", Polimorfismo.Executar},
-                {"Atividade 12/06 - POO",Atividade1206.Executar },
-                {"Abstrato - POO",Abstract.Executar },
-                
+                {"Atividade 12/06 - POO",Atividade1206.Executar},
+                {"Abstrato - POO",Abstract.Executar},
+                {"Classe selada - POO",Selada.Executar},
+
+                //metodos e funções
+                {"lamdda - MeF",ExLambda.Executar},
+                {"16/06/2023 - MeF",Exercico1606.Executar},
+
+
+                //Exceções
+                {"Exceção 1 - Excecoes",Excecao1.Executar}
 
 
 
